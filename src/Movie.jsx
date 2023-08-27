@@ -21,7 +21,6 @@ const Movie = () => {
       const response = await fetch(url, options);
       const result = await response.json();
       setData(result.d);
-      console.log(result);
     } catch (error) {
       console.error(error);
     }
