@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Project-movieAPI/static/css/main.5567cef7.css",
+    "main.js": "/Project-movieAPI/static/js/main.0628d474.js",
+    "index.html": "/Project-movieAPI/index.html",
+    "main.5567cef7.css.map": "/Project-movieAPI/static/css/main.5567cef7.css.map",
+    "main.0628d474.js.map": "/Project-movieAPI/static/js/main.0628d474.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5567cef7.css",
+    "static/js/main.0628d474.js"
+  ]
+}
