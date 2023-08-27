@@ -21,7 +21,7 @@
   font-weight: 600;
   margin: 2rem auto 0 auto;
   background: linear-gradient(to right, #3498db, #e74c3c);
-/*   background-clip: border-box; */
+  background-clip: border-box;
   -webkit-background-clip: text;
 }
 
