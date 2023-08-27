@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 90%;
+  border: 1px solid rgba(250, 235, 215, 0.705);
+  margin: 2rem auto;
+  min-height: 100vh;
+  border-radius: 10px;
+}
+
+.container .head {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2rem auto 0 auto;
+  background: linear-gradient(to right, #3498db, #e74c3c);
+  -webkit-background-clip: text;
+}
+
+.container .input-box {
+  width: 50%;
+  display: flex;
+  margin: 3rem auto;
+  border-radius: 50px;
+  box-shadow: 2px 7px 20px 1px rgba(0, 0, 0, 0.2);
+}
+
+#input-item {
+  /* height: 2.5rem; */
+  width: 80%;
+  outline: none;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #001d2f;
+  font-weight: 500;
+  border-radius: 50px;
+}
+.container .input-box button {
+  width: 30%;
+  border: none;
+  outline: none;
+  background: linear-gradient(to left, #bd2a2a, #5391b8);
+  font-size: 1.1rem;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+@media (max-width:700px) {
+  .container {
+    width: 98%;
+  }
+  .container .head {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .container .input-box {
+    width: 80%;
+  }
+  #input-item {
+    padding: 0.8rem 1rem;
+    font-size: .9rem;
+  }
+  .container .input-box button {
+    width: 40%;
+    font-size: 1rem;
+  }
+}
+
+.container .search-box {
+  width: 98%;
+  margin: 0 auto 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* gap: 2rem; */
+}
+
+.container .search-box .card {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 1rem auto;
+  border-radius: 10px;
+  overflow: hidden; 
+  border: 1px solid rgba(250, 235, 215, 0.705);
+  padding-bottom: 1rem;
+  transition: all .4s ease;
+}
+
+.container .search-box .card:hover {
+  box-shadow: 1px 7px 20px 3px rgba(0, 0, 0, 0.2);
+}
+
+.container .search-box .card img {
+  height: 400px;
+  width: 100%;
+  object-fit: fill;
+}
+
+.container .search-box .card .name {
+  margin: 1rem auto;
+  width: 90%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container .search-box .card .detail {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 90%;
+  margin:  0.5rem auto;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  color: #021a29;
+}
