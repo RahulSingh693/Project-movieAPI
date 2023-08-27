@@ -22,6 +22,7 @@
     /* line-height: 4rem; */
     margin: 1rem auto;
     background: linear-gradient(to right, #3498db, #e74c3c);
+    background-clip: border-box;
     -webkit-background-clip: text;
     color: transparent;
     display: inline-block;
